@@ -25,5 +25,8 @@ jobs:
             cd /home/ubuntu/fastapi_cicd
             ls
             pwd
+            /home/ubuntu/fastapi_cicd
+            git pull origin main
+            sudo systemctl restart fastapi.service
           EOF
 
