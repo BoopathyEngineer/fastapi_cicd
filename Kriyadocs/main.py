@@ -12,4 +12,4 @@ app.add_middleware(
 )
 @app.get("/")
 def read_root():
-    return { "message": "Hi am Boopathy , deploy fastapi in ec2" }
+    return { "message": "Hi am Boopathy , deploy fastapi in ec2 " }
