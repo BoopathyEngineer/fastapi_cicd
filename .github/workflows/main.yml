@@ -25,6 +25,6 @@ jobs:
             sudo su
             cd /home/ubuntu/fastapi_cicd
             git pull origin main
-            sudo systemctl restart fastapi.service
+            sudo systemctl restart kriyadocs.service
           EOF
 
